@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>-1</x>
+     <y>-1</y>
+     <width>1201</width>
+     <height>801</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget#widget{
+
+background-color:qlineargradient(spread:pad, x1:0.031, y1:0.0629545, x2:0.526316, y2:0.943, stop:0 rgba(94, 255, 220, 255), stop:1 rgba(170, 170, 255, 255))}</string>
+   </property>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>0</y>
+      <width>701</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 36pt &quot;Alta&quot;; color:rgb(255, 255, 255)</string>
+    </property>
+    <property name="text">
+     <string>QUESTIONNAIRE</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="submit">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>680</y>
+      <width>361</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:20px;
+font: 26pt &quot;Georgia&quot;;
+background-color: rgb(0, 0, 0);
+
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Submit</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="error">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>750</y>
+      <width>681</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;Myanmar Text&quot;;
+color:red;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="A">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>120</y>
+      <width>191</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(0, 0, 0);
+font: 18pt &quot;Myanmar Text&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string> AIDS/HIV</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="B">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>190</y>
+      <width>261</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(0, 0, 0);
+font: 18pt &quot;Myanmar Text&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string> Hepatitis B or C</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="O">
+    <property name="geometry">
+     <rect>
+      <x>820</x>
+      <y>500</y>
+      <width>261</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(0, 0, 0);
+font: 18pt &quot;Myanmar Text&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string> Septicemia</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="J">
+    <property name="geometry">
+     <rect>
+      <x>820</x>
+      <y>130</y>
+      <width>311</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(0, 0, 0);
+font: 18pt &quot;Myanmar Text&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string> Alzheimer’s disease</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="L">
+    <property name="geometry">
+     <rect>
+      <x>820</x>
+      <y>270</y>
+      <width>261</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(0, 0, 0);
+font: 18pt &quot;Myanmar Text&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string> Corneal Ulcer</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="G">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>560</y>
+      <width>261</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(0, 0, 0);
+font: 18pt &quot;Myanmar Text&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string> Jaundice</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="H">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>640</y>
+      <width>261</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(0, 0, 0);
+font: 18pt &quot;Myanmar Text&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string> Syphilis</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="E">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>400</y>
+      <width>261</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(0, 0, 0);
+font: 18pt &quot;Myanmar Text&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string> Dengue/Malaria</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="F">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>480</y>
+      <width>261</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(0, 0, 0);
+font: 18pt &quot;Myanmar Text&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string> Tetanus</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="C">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>260</y>
+      <width>261</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(0, 0, 0);
+font: 18pt &quot;Myanmar Text&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string> Rabies</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="D">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>330</y>
+      <width>371</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(0, 0, 0);
+font: 18pt &quot;Myanmar Text&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string> Pus discharge from eyes</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="K">
+    <property name="geometry">
+     <rect>
+      <x>820</x>
+      <y>190</y>
+      <width>311</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(0, 0, 0);
+font: 18pt &quot;Myanmar Text&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string> Parkinson’s disease </string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="P">
+    <property name="geometry">
+     <rect>
+      <x>820</x>
+      <y>570</y>
+      <width>261</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(0, 0, 0);
+font: 18pt &quot;Myanmar Text&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string> Conjunctivitis</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="Q">
+    <property name="geometry">
+     <rect>
+      <x>820</x>
+      <y>640</y>
+      <width>261</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(0, 0, 0);
+font: 18pt &quot;Myanmar Text&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string> Dementia</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="I">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>710</y>
+      <width>261</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(0, 0, 0);
+font: 18pt &quot;Myanmar Text&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string> Lymphoma</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="N">
+    <property name="geometry">
+     <rect>
+      <x>820</x>
+      <y>430</y>
+      <width>261</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(0, 0, 0);
+font: 18pt &quot;Myanmar Text&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string> Leukaemia</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="M">
+    <property name="geometry">
+     <rect>
+      <x>820</x>
+      <y>350</y>
+      <width>311</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(0, 0, 0);
+font: 18pt &quot;Myanmar Text&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string> Miliary Tuberculosis</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>40</y>
+      <width>601</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 20pt &quot;Comic Sans MS&quot;;
+
+
+color: rgb(255, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;click on submit if nothing selected &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="Icon.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,780 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>-1</x>
+     <y>-1</y>
+     <width>1201</width>
+     <height>801</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget#widget{
+
+background-color:qlineargradient(spread:pad, x1:0.031, y1:0.0629545, x2:0.526316, y2:0.943, stop:0 rgba(94, 255, 220, 255), stop:1 rgba(170, 170, 255, 255))}</string>
+   </property>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>20</y>
+      <width>701</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 36pt &quot;Alta&quot;; color:rgb(255, 255, 255)</string>
+    </property>
+    <property name="text">
+     <string>ENTER YOUR DETAILS</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="proceed">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>710</y>
+      <width>361</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:20px;
+font: 26pt &quot;Georgia&quot;;
+background-color: rgb(0, 0, 0);
+
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Proceed</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="namefield">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>230</y>
+      <width>361</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;Myanmar Text&quot;;
+background-color: rgba(0,0,0,0);
+color:rgb(0,0,0);
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>Enter the Name </string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Guardianfield">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>320</y>
+      <width>361</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;Myanmar Text&quot;;
+background-color: rgba(0,0,0,0);
+color:rgb(0,0,0);
+
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>Enter the Name</string>
+    </property>
+    <property name="clearButtonEnabled">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>230</y>
+      <width>241</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(0, 0, 0);
+font: 18pt &quot;Myanmar Text&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Name of Donor</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>320</y>
+      <width>271</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(0,0,0);
+font: 18pt &quot;Myanmar Text&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Name of Guardian</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="error">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>660</y>
+      <width>421</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;Myanmar Text&quot;;
+color:red;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>400</y>
+      <width>271</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(0,0,0);
+font: 18pt &quot;Myanmar Text&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Email Id</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="emailidfield">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>400</y>
+      <width>361</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;Myanmar Text&quot;;
+background-color: rgba(0,0,0,0);
+color:rgb(0,0,0);
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>Enter the Email id</string>
+    </property>
+    <property name="clearButtonEnabled">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>150</y>
+      <width>271</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(0,0,0);
+font: 18pt &quot;Myanmar Text&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Gender</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="genderfield">
+    <property name="geometry">
+     <rect>
+      <x>960</x>
+      <y>150</y>
+      <width>161</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(255, 255, 255);
+font: 18pt &quot;Myanmar Text&quot;;
+background-color: rgb(0, 0, 0);</string>
+    </property>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Male</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Female</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Other</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>480</y>
+      <width>271</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(0,0,0);
+font: 18pt &quot;Myanmar Text&quot;;</string>
+    </property>
+    <property name="text">
+     <string>State</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>400</y>
+      <width>271</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(0,0,0);
+font: 18pt &quot;Myanmar Text&quot;;</string>
+    </property>
+    <property name="text">
+     <string>City</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>480</y>
+      <width>271</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(0,0,0);
+font: 18pt &quot;Myanmar Text&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Address</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="addressfield">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>480</y>
+      <width>361</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;Myanmar Text&quot;;
+background-color: rgba(0,0,0,0);
+color:rgb(0,0,0);
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>Enter the Address</string>
+    </property>
+    <property name="clearButtonEnabled">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>230</y>
+      <width>271</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(0,0,0);
+font: 18pt &quot;Myanmar Text&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Blood group</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="bgfield">
+    <property name="geometry">
+     <rect>
+      <x>960</x>
+      <y>230</y>
+      <width>161</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(255, 255, 255);
+font: 18pt &quot;Myanmar Text&quot;;
+background-color: rgb(0, 0, 0);</string>
+    </property>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>O-</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>O+</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>A-</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>A+</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>B-</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>B+</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>AB-</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>AB+</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLineEdit" name="cityfield">
+    <property name="geometry">
+     <rect>
+      <x>930</x>
+      <y>400</y>
+      <width>241</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;Myanmar Text&quot;;
+background-color: rgba(0,0,0,0);
+color:rgb(0,0,0);
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>Enter the City</string>
+    </property>
+    <property name="clearButtonEnabled">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="statefield">
+    <property name="geometry">
+     <rect>
+      <x>930</x>
+      <y>470</y>
+      <width>241</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(255, 255, 255);
+font: 18pt &quot;Myanmar Text&quot;;
+background-color: rgb(0, 0, 0);</string>
+    </property>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Andhra Pradesh</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Arunachal Pradesh</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Assam</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bihar</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Chhattisgarh</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Goa</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Gujarat</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Haryana</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Himachal Pradesh</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Jammu &amp; Kashmir</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Jharkhand</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Karnataka</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kerala</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Ladakh</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Madhya Pradesh</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Maharashtra</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Manipur</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Meghalaya</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mizoram</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Nagaland</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Odisha</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Punjab</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Rajasthan</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sikkim</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Tamil Nadu</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Telangana</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Tripura</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Uttarakhand</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Uttar Pradesh</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>West Bengal</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>560</y>
+      <width>271</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(0,0,0);
+font: 18pt &quot;Myanmar Text&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Phone Number</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="phnofield">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>560</y>
+      <width>361</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;Myanmar Text&quot;;
+background-color: rgba(0,0,0,0);
+color:rgb(0,0,0);
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>Enter the Phone No.</string>
+    </property>
+    <property name="clearButtonEnabled">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>560</y>
+      <width>271</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(0,0,0);
+font: 18pt &quot;Myanmar Text&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Pin Code</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="pinfield">
+    <property name="geometry">
+     <rect>
+      <x>940</x>
+      <y>560</y>
+      <width>241</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;Myanmar Text&quot;;
+background-color: rgba(0,0,0,0);
+color:rgb(0,0,0);
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>Enter the Pin Code</string>
+    </property>
+    <property name="clearButtonEnabled">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_13">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>320</y>
+      <width>271</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(0,0,0);
+font: 18pt &quot;Myanmar Text&quot;;</string>
+    </property>
+    <property name="text">
+     <string>DOB</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="dobfield">
+    <property name="geometry">
+     <rect>
+      <x>930</x>
+      <y>320</y>
+      <width>241</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;Myanmar Text&quot;;
+background-color: rgba(0,0,0,0);
+color:rgb(0,0,0);
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>DD\MM\YYYY</string>
+    </property>
+    <property name="clearButtonEnabled">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_15">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>150</y>
+      <width>241</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(0, 0, 0);
+font: 18pt &quot;Myanmar Text&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Username</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="usernamefield">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>150</y>
+      <width>361</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;Myanmar Text&quot;;
+background-color: rgba(0,0,0,0);
+color:rgb(0,0,0);
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>Enter the username </string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="Icon.qrc"/>
+ </resources>
+ <connections/>
+</ui>
